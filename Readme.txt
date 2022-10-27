@@ -6,3 +6,7 @@
 3.roslaunch ./src/test2/launch demo2.launch 导入gazebo
 4.roslaunch ./src/test2/launch demo3_rviz.launch 启动rviz
 5.在rviz里加载机器人模型、camera、pointcloud等
+
+6.在test2中运行roslaunch ./src/test2/launch demo2.launch 导入gazebo
+7.在test3中运行roslaunch ./src/test3/launch/map_design2.launch
+    因为tset3中加入了路径规划内容
