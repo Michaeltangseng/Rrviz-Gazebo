@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O2 -g -DNDEBUG  -shared -Wl,-soname,libbetter_astar_global_planner_lib.so -o /home/limu/catkin_ws6/devel/lib/libbetter_astar_global_planner_lib.so CMakeFiles/better_astar_global_planner_lib.dir/src/better_astar.cpp.o 

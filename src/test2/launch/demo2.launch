@@ -1,0 +1,13 @@
+<launch>
+
+    <!-- 将 Urdf 文件的内容加载到参数服务器 -->
+    <param name="robot_description" command="$(find xacro)/xacro $(find test2)/urdf/xacro/include.urdf.xacro" />
+    <!-- 启动 gazebo -->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch" >
+        <arg name="world_name" value="$(find test2)/config/world5.world" />
+    </include>
+    <!-- 在 gazebo 中显示机器人模型 -->
+    <node pkg="gazebo_ros" type="spawn_model" name="model" args="-urdf -model my_car3 -param robot_description"  />
+
+</launch>
+<!-- 键盘控制命令;rosrun teleop_twist_keyboard teleop_twist_keyboard.py-->

@@ -1,0 +1,8 @@
+prefix=/home/limu/catkin_ws6/devel
+
+Name: better_astar_global_planner
+Description: Description of better_astar_global_planner
+Version: 0.0.0
+Cflags: -I/home/limu/catkin_ws6/src/better_astar_global_planner/include
+Libs: -L${prefix}/lib 
+Requires: nav_core roscpp rospy std_msgs

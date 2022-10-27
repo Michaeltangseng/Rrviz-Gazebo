@@ -1,0 +1,2 @@
+better_astar_global_planner:test1:test2:test3:test4:test5:test6
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/limu/catkin_ws6/devel -DCMAKE_INSTALL_PREFIX=/home/limu/catkin_ws6/install -G Unix Makefiles

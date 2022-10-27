@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/limu/catkin_ws6/devel/setup.sh

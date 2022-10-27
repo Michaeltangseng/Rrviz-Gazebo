@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O2 -g -DNDEBUG  -shared -Wl,-soname,libdbx_plugins.so -o /home/limu/catkin_ws6/devel/lib/libdbx_plugins.so CMakeFiles/dbx_plugins.dir/src/dbx_plugins.cpp.o 

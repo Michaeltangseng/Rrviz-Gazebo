@@ -1,0 +1,8 @@
+prefix=/home/limu/catkin_ws6/devel
+
+Name: test5
+Description: Description of test5
+Version: 0.0.0
+Cflags: -I/home/limu/catkin_ws6/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

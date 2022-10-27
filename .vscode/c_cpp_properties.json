@@ -1,0 +1,47 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/limu/catkin_ws6/src/better_astar_global_planner/include/**",
+                "/home/limu/catkin_ws6/src/test6/include/test6/**",
+                "/home/limu/catkin_ws6/src/test6/include/**",
+                "/home/limu/catkin_ws6/devel/include/**",
+                "/home/limu/catkin_ws2/devel/include/**",
+                "/home/limu/catkin_ws/devel/include/**",
+                "/opt/ros/noetic/include/**",
+                "/home/limu/catkin_ws2/src/test/include/**",
+                "/home/limu/catkin_ws/src/test2/include/**",
+                "/home/limu/catkin_ws/src/yujin_ocs/yocs_ar_marker_tracking/include/**",
+                "/home/limu/catkin_ws/src/yujin_ocs/yocs_ar_pair_tracking/include/**",
+                "/home/limu/catkin_ws/src/yujin_ocs/yocs_cmd_vel_mux/include/**",
+                "/home/limu/catkin_ws/src/yujin_ocs/yocs_controllers/include/**",
+                "/home/limu/catkin_ws/src/yujin_ocs/yocs_diff_drive_pose_controller/include/**",
+                "/home/limu/catkin_ws/src/yujin_ocs/yocs_keyop/include/**",
+                "/home/limu/catkin_ws/src/yujin_ocs/yocs_math_toolkit/include/**",
+                "/home/limu/catkin_ws/src/yujin_ocs/yocs_navi_toolkit/include/**",
+                "/home/limu/catkin_ws/src/yujin_ocs/yocs_navigator/include/**",
+                "/home/limu/catkin_ws/src/yujin_ocs/yocs_safety_controller/include/**",
+                "/home/limu/catkin_ws/src/yujin_ocs/yocs_velocity_smoother/include/**",
+                "/home/limu/catkin_ws/src/yujin_ocs/yocs_virtual_sensor/include/**",
+                "/home/limu/catkin_ws/src/yujin_ocs/yocs_waypoint_provider/include/**",
+                "/home/limu/catkin_ws/src/yujin_ocs/yocs_waypoints_navi/include/**",
+                "/usr/include/**",
+                "/opt/ros/noetic/include",
+                "${workspaceFolder}/devel/include",
+                "${workspaceFolder}/src/test6/include",
+                "${workspaceFolder}/src/test6/include/test6",
+                "${workspaceFolder}/src/better_astar_global_planner/include/better_astar_global_planner"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
